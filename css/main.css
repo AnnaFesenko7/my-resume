@@ -1,0 +1,319 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f5f7fa;
+  font-family: Open Sans, sans-serif;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main {
+  padding-top: 250px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+}
+
+.sidebar-section {
+  z-index: 0;
+  background-color: #1e2939;
+  width: 370px;
+  padding: 40px 0;
+  padding-right: 40px;
+}
+
+.sidebar__title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+  margin-bottom: 10px;
+  text-align: start;
+}
+
+.sidebar__list {
+  padding: 0 0 0 30px;
+}
+
+.sidebar__item {
+  color: #9387c6;
+}
+
+.sidebar__text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+/* contact section */
+.contact-section {
+  margin: 200px 0 100px 30px;
+}
+
+.contact__link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  display: block;
+  width: 100%;
+  color: #ffffff;
+}
+
+/* teh skills */
+.teh-skill-section {
+  margin: 0 0 100px 30px;
+}
+
+/* soft skills */
+.soft-skill-section {
+  margin: 0 0 100px 30px;
+}
+
+/* languages */
+.languages-section {
+  margin: 0 0 100px 30px;
+}
+
+.header {
+  z-index: 1;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1200px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__text {
+  padding-left: 400px;
+  padding-top: 30px;
+  background: #9387c6;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__profession {
+  color: #ffffff;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 17px;
+  margin: 0 0 20px 0;
+}
+
+.header__name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #fff;
+  margin: 0 0 25px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header__name::after {
+  content: "";
+  display: block;
+  width: 100px;
+  height: 7px;
+  background-color: #ffffff;
+  margin-top: 20px;
+}
+
+.triangle {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 150px 1200px 0 0;
+  border-color: #9387c6 transparent transparent transparent;
+}
+
+.header__wrapper {
+  overflow: hidden;
+  position: relative;
+}
+
+.header__img {
+  position: absolute;
+  top: 50px;
+  left: 150px;
+  z-index: 5;
+  width: 370px;
+  height: 370px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.section__foreword {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #000;
+  padding-left: 200px;
+  padding-top: 50px;
+  width: 700px;
+  display: block;
+  margin-bottom: 60px;
+}
+
+.projects {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 150px;
+  margin-bottom: 50px;
+}
+
+.projects__title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #1e2939;
+  text-align: center;
+}
+
+.projects__list {
+  width: 700px;
+}
+
+.project__item {
+  margin-bottom: 30px;
+}
+
+.project__role,
+.project__link,
+.project__technologies,
+.project__description {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+  color: #1e2939;
+}
+
+.project__name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.1em;
+  color: #0a3980;
+}
+
+.project__link {
+  text-decoration: underline;
+}
+
+.project__technologies {
+  text-transform: uppercase;
+  font-weight: 400;
+}
+
+.project__description {
+  font-weight: 400;
+}
+
+.education {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 150px;
+}
+
+.education__title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #1e2939;
+  text-align: center;
+}
+
+.education__kind {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.1em;
+  color: #0a3980;
+}
+
+.education__period {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.inline {
+  display: inline;
+}
+
+.experience {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 150px;
+  margin-bottom: 50px;
+}
+
+.experience__title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #1e2939;
+  text-align: center;
+}
+
+.experience__kind {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.1em;
+  color: #0a3980;
+}
+
+.experience__inform {
+  display: inline;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+}
+
+.position {
+  display: block;
+}
+/*# sourceMappingURL=main.css.map */

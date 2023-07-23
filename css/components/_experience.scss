@@ -1,0 +1,45 @@
+.experience {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 150px;
+  margin-bottom: 50px;
+}
+.experience__title {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 1.36;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #1e2939;
+  text-align: center;
+}
+// .experience__list {
+//   display: flex;
+//   flex-wrap: wrap;
+//   width: 700px;
+//   list-style: none;
+//   margin-right: -40px;
+// }
+// .experience__item {
+//   margin-right: 10px;
+//   flex-basis: calc((100% - 2 * 40px) / 2);
+// }
+.experience__kind {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.7;
+  letter-spacing: 0.1em;
+
+  color: #0a3980;
+}
+
+.experience__inform {
+  display: inline;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.7;
+}
+.position {
+  display: block;
+}
